@@ -1,0 +1,17 @@
+appId: com.codelensvercel.app
+productName: "Meu App"
+directories:
+  buildResources: assets
+  output: dist-electron
+files:
+  - dist/**/*
+  - electron/**/*
+  - package.json
+win:
+  target:
+    - target: nsis
+      arch: [x64]
+mac:
+  target: dmg
+linux:
+  target: AppImage
