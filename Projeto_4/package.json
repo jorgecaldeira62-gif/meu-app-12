@@ -1,0 +1,8 @@
+{
+  "name": "minha-cli",
+  "version": "1.0.0",
+  "description": "CLI em Node.js",
+  "bin": { "minha-cli": "./cli.js" },
+  "scripts": { "start": "node cli.js", "dev": "node cli.js --help" },
+  "dependencies": { "commander": "^12.0.0", "chalk": "^4.1.2", "ora": "^5.4.1" }
+}
